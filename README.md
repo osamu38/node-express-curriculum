@@ -11,13 +11,15 @@ $ cd . && npm install
 $ DEBUG=node:* ./bin/www
 ```
 
-localhost:3000にアクセスしてExpressが表示されていればおkです。
+##### localhost:3000にアクセスしてExpressが表示されていればおkです。
 
 ## Socket.IOを使って双方向通信を楽しんでみよう
 
+```
 $ npm install socket.io --save
+```
 
-wwwの30行目（`server.on('listening', onListening);`）の下に
+##### wwwの30行目（`server.on('listening', onListening);`）の下に以下のソースをコピペ
 
 ```JavaScript
 var socketIO = require('socket.io');
@@ -33,9 +35,7 @@ io.on('connection', function(socket) {
 });
 ```
 
-をコピペ
-
-index.ejsのbodyの閉じタグの上に
+##### index.ejsのbodyの閉じタグの上に以下のソースをコピペ
 
 ```JavaScript
 <script src="/socket.io/socket.io.js"></script>
@@ -48,4 +48,3 @@ socket.on('response', function() {
 </script>
 ```
 
-をコピペ
