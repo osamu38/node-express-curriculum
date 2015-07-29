@@ -1,6 +1,7 @@
 
-Express導入してみよう
+## Express導入してみよう
 
+```
 $ cd 任意のディレクトリ
 $ mkdir node-test
 $ cd node-test
@@ -8,15 +9,17 @@ $ npm install -g express-generator
 $ express -e
 $ cd . && npm install
 $ DEBUG=node:* ./bin/www
+```
 
 localhost:3000にアクセスしてExpressが表示されていればおkです。
 
-Socket.IOを使って双方向通信を楽しんでみよう
+## Socket.IOを使って双方向通信を楽しんでみよう
 
 $ npm install socket.io --save
 
-wwwの30行目（server.on('listening', onListening);）の下に
+wwwの30行目（`server.on('listening', onListening);`）の下に
 
+```JavaScript
 var socketIO = require('socket.io');
 var io = socketIO.listen(server);
 
@@ -28,11 +31,13 @@ io.on('connection', function(socket) {
         socket.broadcast.emit('response');
     });
 });
+```
 
 をコピペ
 
 index.ejsのbodyの閉じタグの上に
 
+```JavaScript
 <script src="/socket.io/socket.io.js"></script>
 <script>
 var socket = io.connect();
@@ -41,5 +46,6 @@ socket.on('response', function() {
     alert('Get Response!!');
 });
 </script>
+```
 
 をコピペ
