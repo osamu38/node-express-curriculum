@@ -44,17 +44,18 @@ socket.on('response', function() {
 /bin/wwwの30行目（`server.on('listening', onListening);`）の下に以下のソースをコピペ
 
 ```JavaScript
-var socketIO = require('socket.io');
-var io = socketIO.listen(server);
-
-io.on('connection', function(socket) {
-    socket.on('disconnect', function() {
-        console.log('user disconnected.');
-    });
-    socket.on('request', function() {
-        socket.broadcast.emit('response');
-    });
+<button>Request!!</button>
+<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+<script src="/socket.io/socket.io.js"></script>
+<script>
+var socket = io.connect();
+$('button').on('click', function() {
+    socket.emit('request');
 });
+socket.on('response', function() {
+    alert('Get Response!!');
+});
+</script>
 ```
 
 
