@@ -43,7 +43,7 @@ socket.on('response', function() {
 </script>
 ```
 
-#### サーバーでリクエストを受け取ってをレスポンスを返そう
+#### サーバーでリクエストを受け取ってレスポンスを返そう
 
 /bin/wwwの30行目（`server.on('listening', onListening);`）の下に以下のソースをコピペ
 
