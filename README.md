@@ -1,17 +1,34 @@
 ## Node.jsを導入しよう
 
-おそらく入ってる筈なので割愛
+```
+$ brew install nvm (nvmのinstall)
+$ vi .bash_profile (.bash_profileファイルを作成し、viで編集)
+
+# nvm設定
+[[ -s ~/.nvm/nvm.sh ]] && . ~/.nvm/nvm.sh
+nvm use default
+npm_dir=${NVM_PATH}_modules
+export NODE_PATH=$npm_dir
+
+↑を.bash_profileにコピペ
+
+$ source ~/.bash_profile (.bash_profileを適用)
+$ nvm ls-remote (Node.jsのバージョンを一覧で表示)
+$ nvm install v5.0.0 (Node.jsをinstall)
+$ nvm alias default v5.0.0 (defaultで使用するNode.jsを設定)
+$ nvm use v5.0.0 (Node.jsを使用)
+```
 
 ## Expressを導入しよう
 
 ```
-$ cd 任意のディレクトリ
-$ mkdir node-test
-$ cd node-test
-$ npm install -g express-generator
-$ express -e
-$ cd . && npm install
-$ DEBUG=node:* ./bin/www
+$ cd 任意のディレクトリ (任意のディレクトリに移動)
+$ mkdir node-test (任意のディレクトリにnode-testというフォルダを作成)
+$ cd node-test (node-testに移動)
+$ npm install -g express-generator (グローバルでexpress-generatorを導入)
+$ express -e (expressのゴーストアプリを作成)
+$ cd . && npm install (必要なnode_modulesをinstall)
+$ DEBUG=node:* ./bin/www (アプリを立ち上げ)
 ```
 
 localhost:3000にアクセスしてExpressが表示されていればおkです。
@@ -21,7 +38,7 @@ localhost:3000にアクセスしてExpressが表示されていればおkです�
 #### Socket.IOを導入
 
 ```
-$ npm install socket.io --save
+$ npm install socket.io --save (socket.ioをinstall)
 ```
 
 #### クライアントからリクエストを送ろう
