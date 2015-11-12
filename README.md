@@ -33,11 +33,15 @@
 #### Node.jsを使う上で必要な単語の説明
 
 * nvm
-  * Node Package Managerの略。Node.jsのバージョンは頻繁に更新されるため、アップデートがかかるたびに公式サイトから新しいNode.jsを落としてくるのは面倒なので、nvmを使ってバージョンを管理する。非常に便利。
-* 
-
-
-
+  * Node Version Managerの略。Node.jsのバージョンは頻繁に更新されるため、アップデートがかかるたびに公式サイトから新しいNode.jsを落としてくるのは面倒なので、nvmを使ってバージョンを管理する。非常に便利。
+* npm
+  * Node Package Managerの略。後述するnode_modulesを管理するためのコマンド。`npm install`を叩くことでpackage.jsonに記述されているnode_modulesをローカルにinstallする。
+* node_modules
+  * Node.jsの開発に必要なモジュールのこと。
+* package.json
+  * Node.jsの開発に必要な情報が記述された設定ファイル。
+* .bash_profile
+  * .bash_profileはTerminalを起動時に.bash_profileに記述されているShellScriptを実行してくれる。
 
 ```
 $ brew install nvm (nvmのinstall)
