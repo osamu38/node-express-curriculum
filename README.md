@@ -1,3 +1,11 @@
+# Node.jsを使ってアプリケーションを構築しよう！
+
+## 目次
+
+  1. Node.jsを導入しよう
+  1. Expressを導入しよう
+  1. Socket.IOを使って双方向通信を楽しんでみよう
+
 ## Node.jsを導入しよう
 
 ```
@@ -43,7 +51,7 @@ localhost:3000にアクセスしてExpressが表示されていればおkです�
 
 ## Socket.IOを使って双方向通信を楽しんでみよう
 
-#### Socket.IOを導入
+#### Socket.IOを導入しよう
 
 ```
 $ npm install socket.io --save (socket.ioをinstall)
