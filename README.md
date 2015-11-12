@@ -31,21 +31,22 @@
 ## Node.jsを導入しよう
 
 #### Node.jsを使う上で必要な単語の説明
-
-* nvm
-  * Node Version Managerの略。Node.jsのバージョンは頻繁に更新されるため、アップデートがかかるたびに公式サイトから新しいNode.jsを落としてくるのは面倒なので、nvmを使ってバージョンを管理する。非常に便利。
-* npm
-  * Node Package Managerの略。後述するnode_modulesを管理するためのコマンド。Node.jsを導入することで使用できる。`npm install`を叩くことでpackage.jsonに記述されているnode_modulesをinstallする。
-* node_modules
-  * Node.jsの開発に必要なモジュールのこと。
-* package.json
-  * Node.jsの開発に必要な情報が記述された設定ファイル。
-* .bash_profile
-  * .bash_profileはTerminalを起動時に.bash_profileに記述されているShellScriptを実行してくれる。
-* Express
-  * Node.js Web Application Framework。大した機能はないが、導入が非常に簡単でわかりやすい。おそらくNode.jsで一番使われているFramework。
-* Socket.IO
-  * 双方向通信を実装するためのnode_modules。他の言語に比べてとても簡単に導入出来るため、この機能目当てにNode.jsを採用するプロジェクトも多い。
+<dl>
+  <dt>nvm</dt>
+  <dd>Node Version Managerの略。Node.jsのバージョンは頻繁に更新されるため、アップデートがかかるたびに公式サイトから新しいNode.jsを落としてくるのは面倒なので、nvmを使ってバージョンを管理する。非常に便利。</dd>
+  <dt>npm</dt>
+  <dd>Node Package Managerの略。後述するnode_modulesを管理するためのコマンド。Node.jsを導入することで使用できる。`npm install`を叩くことでpackage.jsonに記述されているnode_modulesをinstallする。</dd>
+  <dt>node_modules</dt>
+  <dd>Node.jsの開発に必要なモジュールのこと。</dd>
+  <dt>package.json</dt>
+  <dd>Node.jsの開発に必要な情報が記述された設定ファイル。</dd>
+  <dt>.bash_profile</dt>
+  <dd>.bash_profileはTerminalを起動時に.bash_profileに記述されているShellScriptを実行してくれる。</dd>
+  <dt>Express</dt>
+  <dd>Node.js Web Application Framework。大した機能はないが、導入が非常に簡単でわかりやすい。おそらくNode.jsで一番使われているFramework。</dd>
+  <dt>Socket.IO</dt>
+  <dd>双方向通信を実装するためのnode_modules。他の言語に比べてとても簡単に導入出来るため、この機能目当てにNode.jsを採用するプロジェクトも多い。</dd>
+</dl>
 
 ```
 $ brew install nvm (nvmのinstall)
