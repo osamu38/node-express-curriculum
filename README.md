@@ -14,6 +14,12 @@ export NODE_PATH=$npm_dir
 
 $ source ~/.bash_profile (.bash_profileを適用)
 $ nvm ls-remote (Node.jsのバージョンを一覧で表示)
+// v0.1.14
+// v0.1.15
+// :
+// :
+// v4.2.2
+// v5.0.0
 $ nvm install v5.0.0 (Node.jsをinstall)
 $ nvm alias default v5.0.0 (defaultで使用するNode.jsを設定)
 $ nvm use v5.0.0 (Node.jsを使用)
