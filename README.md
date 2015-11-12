@@ -40,7 +40,7 @@
   <dt>package.json</dt>
   <dd>Node.jsの開発に必要な情報が記述された設定ファイル。</dd>
   <dt>.bash_profile</dt>
-  <dd>.bash_profileはTerminalを起動時に.bash_profileに記述されているShellScriptを実行してくれる。nvmはターミナル起動時だとpathが通ってないので使えないが、.bash_profileは</dd>
+  <dd>.bash_profileはTerminalを起動時に.bash_profileに記述されているShellScriptを実行してくれる。nvmはターミナル起動時だとpathが通っていないので使えないが、.bash_profileに記述するばいける。便利。</dd>
   <dt>Express</dt>
   <dd>Node.js Web Application Framework。大した機能はないが、導入が非常に簡単でわかりやすい。おそらくNode.jsで一番使われているFramework。</dd>
   <dt>Socket.IO</dt>
