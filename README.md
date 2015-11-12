@@ -34,7 +34,7 @@
   <dt>nvm</dt>
   <dd>Node Version Managerの略。Node.jsのバージョンは頻繁に更新されるため、アップデートがかかるたびに公式サイトから新しいNode.jsを落としてくるのは面倒なので、nvmを使ってバージョンを管理する。非常に便利。</dd>
   <dt>npm</dt>
-  <dd>Node Package Managerの略。後述するnode_modulesを管理するためのコマンド。Node.jsを導入することで使用できる。`npm install`を叩くことでpackage.jsonに記述されているnode_modulesをinstallする。</dd>
+  <dd>Node Package Managerの略。後述するnode_modulesを管理するためのコマンド。Node.jsを導入することで使用できる。<code>npm install</code>を叩くことでpackage.jsonに記述されているnode_modulesをinstallする。</dd>
   <dt>node_modules</dt>
   <dd>Node.jsの開発に必要なモジュールのこと。</dd>
   <dt>package.json</dt>
