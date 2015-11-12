@@ -28,9 +28,8 @@
 + ドキュメントが少ない
 + Node.js単体の案件が少ない
 
-## Node.jsを導入しよう
-
 #### Node.jsを使う上で必要な単語の説明
+
 <dl>
   <dt>nvm</dt>
   <dd>Node Version Managerの略。Node.jsのバージョンは頻繁に更新されるため、アップデートがかかるたびに公式サイトから新しいNode.jsを落としてくるのは面倒なので、nvmを使ってバージョンを管理する。非常に便利。</dd>
@@ -41,12 +40,14 @@
   <dt>package.json</dt>
   <dd>Node.jsの開発に必要な情報が記述された設定ファイル。</dd>
   <dt>.bash_profile</dt>
-  <dd>.bash_profileはTerminalを起動時に.bash_profileに記述されているShellScriptを実行してくれる。</dd>
+  <dd>.bash_profileはTerminalを起動時に.bash_profileに記述されているShellScriptを実行してくれる。nvmはターミナル起動時だとpathが通ってないので使えないが、.bash_profileは</dd>
   <dt>Express</dt>
   <dd>Node.js Web Application Framework。大した機能はないが、導入が非常に簡単でわかりやすい。おそらくNode.jsで一番使われているFramework。</dd>
   <dt>Socket.IO</dt>
   <dd>双方向通信を実装するためのnode_modules。他の言語に比べてとても簡単に導入出来るため、この機能目当てにNode.jsを採用するプロジェクトも多い。</dd>
 </dl>
+
+## Node.jsを導入しよう
 
 ```
 $ brew install nvm (nvmのinstall)
