@@ -13,3 +13,4 @@
   1. <a href="https://github.com/osamu38/node-express-socketio-sample/wiki/Node.js%E3%82%92%E5%A7%8B%E3%82%81%E3%81%A6%E3%81%BF%E3%82%88%E3%81%86">Node.jsを使ってみよう</a>
   1. <a href="https://github.com/osamu38/node-express-socketio-sample/wiki/Node.js%EF%BC%88Express%EF%BC%89%E3%81%AE%E5%9F%BA%E6%9C%AC">Node.js（Express）の基本</a>
   1. <a href="https://github.com/osamu38/node-express-curriculum/wiki/MySQL%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%A6%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9%E3%82%92%E6%A7%8B%E7%AF%89%E3%81%97%E3%82%88%E3%81%86">MySQLを使ってデータベースを構築しよう</a>
+  1. <a href="https://github.com/osamu38/node-express-curriculum/wiki/Node.js%E3%81%A8%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9%E3%82%92%E6%8E%A5%E7%B6%9A%E3%81%97%E3%82%88%E3%81%86">Node.jsとデータベースを接続しよう</a>
