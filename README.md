@@ -5,6 +5,7 @@
 #### JavaScriptの経験がない人
 
   1. <a href="https://github.com/osamu38/node-express-curriculum/wiki/Node.js%E3%81%AE%E5%89%8D%E3%81%ABJavaScript%E3%81%8C%E5%85%A8%E3%81%8F%E3%82%8F%E3%81%8B%E3%82%89%E3%81%AA%E3%81%84%E3%81%82%E3%81%AA%E3%81%9F%E3%81%B8">Node.jsの前にJavaScriptが全くわからないあなたへ</a>
+  1. <a href="https://github.com/osamu38/node-express-curriculum/wiki/Node.js%E3%81%AE%E5%89%8D%E3%81%ABJavaScript%E3%81%8C%E5%85%A8%E3%81%8F%E3%82%8F%E3%81%8B%E3%82%89%E3%81%AA%E3%81%84%E3%81%82%E3%81%AA%E3%81%9F%E3%81%B8-%E3%80%9C%E3%81%9D%E3%81%AE2%E3%80%9C">Node.jsの前にJavaScriptが全くわからないあなたへ 〜その2〜</a>
 
 #### JavaScriptの経験がある人
 
