@@ -2,11 +2,6 @@
 
 ## 目次
 
-#### JavaScriptの経験がない人
-
-  1. <a href="https://github.com/osamu38/node-express-curriculum/wiki/Node.js%E3%81%AE%E5%89%8D%E3%81%ABJavaScript%E3%81%8C%E5%85%A8%E3%81%8F%E3%82%8F%E3%81%8B%E3%82%89%E3%81%AA%E3%81%84%E3%81%82%E3%81%AA%E3%81%9F%E3%81%B8">Node.jsの前にJavaScriptが全くわからないあなたへ</a>
-  1. <a href="https://github.com/osamu38/node-express-curriculum/wiki/Node.js%E3%81%AE%E5%89%8D%E3%81%ABJavaScript%E3%81%8C%E5%85%A8%E3%81%8F%E3%82%8F%E3%81%8B%E3%82%89%E3%81%AA%E3%81%84%E3%81%82%E3%81%AA%E3%81%9F%E3%81%B8-%E3%80%9C%E3%81%9D%E3%81%AE2%E3%80%9C">Node.jsの前にJavaScriptが全くわからないあなたへ 〜その2〜</a>
-
 #### JavaScriptの経験がある人
 
   1. <a href="https://github.com/osamu38/node-express-socketio-sample/wiki/%E3%82%A2%E3%83%97%E3%83%AA%E3%82%B1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%81%AE%E6%A7%8B%E9%80%A0%E3%82%92%E7%90%86%E8%A7%A3%E3%81%97%E3%82%88%E3%81%86">アプリケーションの構造を理解しよう</a>
